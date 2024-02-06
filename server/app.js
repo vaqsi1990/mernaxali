@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 
-const allowedOrigins = [''https://mernapp-v40n.onrender.com'];
+const allowedOrigins = ['https://mernapp-v40n.onrender.com'];
 
 app.use(cors({
   origin: allowedOrigins,
