@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 
-const allowedOrigins = ['http://localhost:3000', 'https://mernapp-v40n.onrender.com'];
+const allowedOrigins = ['http://localhost:3000', 'https://mernapp-v40n.onrender.com', 'https://65c26ffb9723c51812df8730--fluffy-raindrop-c7f5f2.netlify.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
